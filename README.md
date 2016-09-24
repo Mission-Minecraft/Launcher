@@ -1,4 +1,4 @@
 Minecraftia Launcher
 ====================
 
-The launcher for Mission Minecraft.
+A Minecraft laucnher built for Mission Minecraft. Licensed under the BSD 3-Clause License.
