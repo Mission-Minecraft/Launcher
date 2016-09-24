@@ -1,0 +1,23 @@
+{
+  "name": "minecraftia-launcher",
+  "version": "1.0.0",
+  "description": "A Minecraft launcher for modpacks",
+  "main": "launcher.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mission-Minecraft/Launcher.git"
+  },
+  "author": "Mission Minecraft Team",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Mission-Minecraft/Launcher/issues"
+  },
+  "homepage": "https://github.com/Mission-Minecraft/Launcher",
+  "devDependencies": {
+    "electron": "^1.4.1",
+    "gulp": "^3.9.1"
+  }
+}
