@@ -9,7 +9,19 @@ html
         link(rel='stylesheet', href='../bower_components/materialize/dist/css/materialize.min.css')
     body
         include _navbar
+        
         block content
+
+        .modal#loginModal
+            .modal-content
+                h4 Login 
+                input(placeholder='Username / Email', id='email', type='text')
+                input(placeholder='Password', id='password', type='password')
+
         include _footer
+
         script(src='../bower_components/jquery/dist/jquery.min.js')
+        script
+            | window.$ = window.jQuery = require('../bower_components/jquery/dist/jquery.min.js');
         script(src='../bower_components/materialize/dist/js/materialize.min.js')
+        script(src='assets/js/main.js')

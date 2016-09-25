@@ -28,11 +28,11 @@ gulp.task('views', function() {
 
 gulp.task('compile', function() {
     return tsProject.src()
-        .pipe(ts(tsProject))
+        .pipe(tsProject())
         .js.pipe(gulp.dest('./dist/assets/js'))
 })
 
-gulp.task('build', ['assets', 'views'])
+gulp.task('build', ['assets', 'views', 'compile'])
 gulp.task('build:prod', ['clean', 'build'])
 
 gulp.task('watch', ['build'], function() {
