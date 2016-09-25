@@ -7,7 +7,7 @@ let mainWindow
 app.on('ready', function () {
   // Create main window
   mainWindow = new BrowserWindow({width: 1280, height: 720})
-  mainWindow.loadURL(`file://${__dirname}/app/index.html`)
+  mainWindow.loadURL(`file://${__dirname}/dist/news.html`)
 
   mainWindow.on('closed', function () {
     mainWindow = null

@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/Mission-Minecraft/Launcher",
   "devDependencies": {
+    "del": "^2.2.2",
     "electron": "^1.4.1",
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-pug": "^3.0.4",
+    "gulp-shell": "^0.5.2",
+    "webpack": "^1.13.2"
   }
 }
